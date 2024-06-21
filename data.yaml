@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 33
+names: ['Anggur', 'Apel', 'Bawang Merah', 'Bawang Putih', 'Bayam', 'Beras', 'Beras Merah', 'Brokoli', 'Cabai', 'Cumi', 'Daging Ayam', 'Daging Sapi', 'Ikan', 'Jagung', 'Jeruk', 'Kacang Kedelai', 'Kacang Panjang', 'Kangkung', 'Kentang', 'Kiwi', 'Kol', 'Kol Ungu', 'Labu Siam', 'Mangga', 'Nanas', 'Paprika', 'Pir', 'Pisang', 'Selada', 'Terong', 'Timun', 'Tomat', 'Wortel']
+
+roboflow:
+  workspace: heyfo-w552g
+  project: heyfo
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/heyfo-w552g/heyfo/dataset/3
